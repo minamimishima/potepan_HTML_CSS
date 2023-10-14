@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <title>サイト模写</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   </head>
 
   <body>
     
-    <header>
+    <header class="Header">
       <div class="HeaderContainer">
         
         <a class="HeaderLogo" href="https://camp.potepan.com/">
@@ -17,34 +19,42 @@
         
         <nav class="HeaderNav">
           
+          <div class="HeaderNavHamburger">
+            <span class="HeaderNavHamburgerLine"></span>
+            <span class="HeaderNavHamburgerLine"></span>
+            <span class="HeaderNavHamburgerLine"></span>
+            
+          </div>
+          
+          
           <ul class="HeaderNavList">
             <li class="HeaderNavListItem">
               <a class="HeaderNavListLink" href="https://camp.potepan.com/content">
-                <span>CONTENT</span><br>
+                <span>CONTENT</span>
                 <span>学習内容</span>
                 </a>
             </li>
             <li class="HeaderNavListItem">
               <a class="HeaderNavListLink" href="https://camp.potepan.com/interview">
-                <span>INTERVIEW</span><br>
+                <span>INTERVIEW</span>
                 <span>受講生の声</span>
               </a>
             </li>
             <li class="HeaderNavListItem">
               <a class="HeaderNavListLink" href="https://camp.potepan.com/faq">
-                <span>FAQ</span><br>
+                <span>FAQ</span>
                 <span>よくある質問</span>
               </a>
             </li>
             <li class="HeaderNavListItem">
               <a class="HeaderNavListLink" href="https://camp.potepan.com/recruit">
-                <span>RECRUIT</span><br>
+                <span>RECRUIT</span>
                 <span>採用企業様へ</span>
               </a>
             </li>
             <li class="HeaderNavListItem">
               <a class="HeaderNavListLink" href="https://camp.potepan.com/blogs">
-                <span>BLOG</span><br>
+                <span>BLOG</span>
                 <span>ブログ</span>
               </a>
             </li>
@@ -61,22 +71,23 @@
     
     <main>
       <section class="FirstView">
+        <img src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp" class="FirstViewMainImg-sp">
+        
         <div class="FirstViewContainer">
           
           <div class="FirstViewContent">
              <h2 class="FirstViewTitle">
-              最短５ヶ月間で<br>
+              最短5ヶ月間で<br>
               未経験からWebエンジニアへ
             </h2>
-            <!--なんでh2なんか後で考える h1でもよくない？-->
             
             <div class="FirstViewImg">
-              <img class="img1" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/100percent@2x.svg">
-              <img class="img2" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/no1@2x.svg">
-              <img class="img3" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/refund@2x.svg">
+              <img class="FirstViewImg_Imgs" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/100percent@2x.svg">
+              <img class="FirstViewImg_Imgs" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/no1@2x.svg">
+              <img class="FirstViewImg_Imgs" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/refund@2x.svg">
             </div>
             
-            <a class="FirstViewButton" href="https://camp.potepan.com/contact">まずは無料カウンセリングへ</a>
+            <a class="FirstViewButton" href="https://camp.potepan.com/contact"><button type="button" class="FirstViewButton_btn">まずは無料カウンセリングへ</button></a>
             
           </div>
           
@@ -98,12 +109,13 @@
             <h2>
               <span>POTEPAN CAMP</span>とは
             </h2>
-          
-          <p>
-             経済産業省リスキリングを通じたキャリアアップ支援事業に認定されている、エンジニア転職特化型のプログラミングスクールです。現場評価の高いカリキュラムと、強力な転職サポートで、未経験からエンジニアへの転職を成功させます。
-          </p>
-          
-          <img class="AboutReskillingLogo" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/subsidy_introduction/reskilling-logo.png">
+            
+            <p>
+              経済産業省リスキリングを通じたキャリアアップ支援事業に認定されている、エンジニア転職特化型のプログラミングスクールです。現場評価の高いカリキュラムと、強力な転職サポートで、未経験からエンジニアへの転職を成功させます。
+            </p>
+            
+            <img class="AboutReskillingLogo" src="https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/subsidy_introduction/reskilling-logo.png">
+          </div>  
           
         </section>
       </div>
